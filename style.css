@@ -1,0 +1,65 @@
+body
+{
+    background-color: black;
+}
+#rect
+{
+    height: 210px;
+    width: 97%;
+    border: 5px solid red;
+    color: bisque;
+    padding-left:20px ;
+    padding-top:20px;
+ 
+font-family: 'Libre Baskerville', serif; 
+    
+}
+
+img
+{
+    /* border-radius: 5px; */
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid red;
+    padding: 7px;
+    position: relative;
+    left: 990px;
+    bottom: 142px;
+
+}
+.border
+{
+    border: 5px  solid red;
+    height: 1200px;
+    width: 1040px;
+    position: relative;
+    bottom: 200px;
+    border-top-right-radius: 100px;
+    color: blanchedalmond ;
+    font-size: 20px;
+
+}
+#pad
+{
+    margin: 13px;
+    letter-spacing: 2px;
+}
+h2
+{
+  margin:15px ;
+  text-decoration:5px  underline solid red;
+}
+@media (max-width:678px)
+{
+    #rect
+    {
+
+        height: 210px;
+    width: 678px;
+    border: 5px solid red;
+    color: bisque;
+    padding-left:20px;
+    padding-top:20px;
+    }
+}
